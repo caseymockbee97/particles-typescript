@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/particles-typescript/static/css/main.8144c0ed.css",
-    "main.js": "/particles-typescript/static/js/main.242b1b3b.js",
+    "main.js": "/particles-typescript/static/js/main.bfc4ede3.js",
     "static/js/415.f4cc970f.chunk.js": "/particles-typescript/static/js/415.f4cc970f.chunk.js",
     "static/js/787.2b2bdf1d.chunk.js": "/particles-typescript/static/js/787.2b2bdf1d.chunk.js",
     "static/media/LifeAquatic16x9.jpeg": "/particles-typescript/static/media/LifeAquatic16x9.6881e2fbbb7a6d2eeaa7.jpeg",
     "static/media/LifeAquatic1x1.jpg": "/particles-typescript/static/media/LifeAquatic1x1.4f76b11f6f78b87fe0d1.jpg",
     "index.html": "/particles-typescript/index.html",
     "main.8144c0ed.css.map": "/particles-typescript/static/css/main.8144c0ed.css.map",
-    "main.242b1b3b.js.map": "/particles-typescript/static/js/main.242b1b3b.js.map",
+    "main.bfc4ede3.js.map": "/particles-typescript/static/js/main.bfc4ede3.js.map",
     "415.f4cc970f.chunk.js.map": "/particles-typescript/static/js/415.f4cc970f.chunk.js.map",
     "787.2b2bdf1d.chunk.js.map": "/particles-typescript/static/js/787.2b2bdf1d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8144c0ed.css",
-    "static/js/main.242b1b3b.js"
+    "static/js/main.bfc4ede3.js"
   ]
 }
