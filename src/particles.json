@@ -72,9 +72,11 @@
     },
     "shape": {
       "type": "image",
-      "image": {
-        "src": "/Fishy.svg"
-      }
+      "image": [
+        {
+          "src": "https://raw.githubusercontent.com/caseymockbee97/particles-typescript/e5f771166505cb248a9ddd0d49eff7dcc19ed6e3/public/Fishy.svg"
+        }
+      ]
     },
     "size": {
       "random": {
