@@ -1,0 +1,34 @@
+.post-container {
+  width: 95%;
+  background-color: #01abe9;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px #010101;
+  margin: 0 auto;
+}
+img.post-image {
+  max-width: 100%;
+}
+h2.title,
+p.body {
+  padding: 10px;
+  margin: 0;
+  color: #fefefe;
+}
+h2.title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: "Titan One";
+  font-weight: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+p.body {
+  text-indent: 1rem;
+  font-size: 0.7rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: normal;
+  padding-bottom: 20px;
+}
+p.no-image {
+  padding-top: 0;
+}

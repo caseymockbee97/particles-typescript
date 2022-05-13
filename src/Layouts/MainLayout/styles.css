@@ -1,0 +1,6 @@
+.main-content {
+  margin-top: calc(5rem + 10px);
+}
+.nav-bar--hidden {
+  transform: translateY(-100%);
+}

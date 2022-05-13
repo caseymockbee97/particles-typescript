@@ -1,19 +1,19 @@
 {
   "background": {
     "color": {
-      "value": "#282c34"
+      "value": "#1B346C"
     }
   },
   "fpsLimit": 120,
   "interactivity": {
     "events": {
       "onClick": {
-        "enable": true,
-        "mode": "push"
+        "enable": false,
+        "mode": "repulse"
       },
       "onHover": {
-        "enable": true,
-        "mode": "repulse"
+        "enable": false,
+        "mode": "attract"
       },
       "resize": true
     },
@@ -25,34 +25,38 @@
         "size": 40
       },
       "push": {
-        "quantity": 4
+        "quantity": 2
       },
       "repulse": {
-        "distance": 200,
+        "distance": 20,
         "duration": 0.4
+      },
+      "attract": {
+        "rotateX": 100,
+        "rotateY": 100
       }
     }
   },
   "particles": {
     "color": {
-      "value": "#ffffff"
+      "value": "#f34b1a"
     },
     "links": {
       "color": "#ffffff",
       "distance": 150,
-      "enable": true,
+      "enable": false,
       "opacity": 0.5,
       "width": 1
     },
     "collisions": {
-      "enable": true
+      "enable": false
     },
     "move": {
-      "direction": "none",
+      "direction": "right",
       "enable": true,
-      "outMode": "bounce",
-      "random": false,
-      "speed": 6,
+      "outMode": "out",
+      "random": true,
+      "speed": 2,
       "straight": false
     },
     "number": {
@@ -63,14 +67,29 @@
       "value": 80
     },
     "opacity": {
-      "value": 0.5
+      "value": 1,
+      "random": false
     },
     "shape": {
-      "type": "circle"
+      "type": "image",
+      "image": {
+        "src": "/Fishy.svg"
+      }
     },
     "size": {
-      "random": true,
-      "value": 5
+      "random": {
+        "enable": true,
+        "minimumValue": 5
+      },
+      "value": 15
+    },
+    "shadow": {
+      "enable": true,
+      "color": "#000000",
+      "offset": {
+        "x": 3,
+        "y": 3
+      }
     }
   },
   "detectRetina": true
