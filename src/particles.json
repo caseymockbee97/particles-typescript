@@ -64,7 +64,7 @@
         "enable": true,
         "value_area": 800
       },
-      "value": 80
+      "value": 50
     },
     "opacity": {
       "value": 1,
@@ -81,9 +81,9 @@
     "size": {
       "random": {
         "enable": true,
-        "minimumValue": 5
+        "minimumValue": 20
       },
-      "value": 15
+      "value": 50
     },
     "shadow": {
       "enable": true,
